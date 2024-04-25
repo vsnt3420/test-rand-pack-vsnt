@@ -1,0 +1,13 @@
+/node_modules
+/src
+/tests
+/coverage
+/notes
+
+.env*
+.DS_Store
+.vscode
+
+tsconfig.json
+tsup.config.ts
+jest.config.js

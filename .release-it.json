@@ -1,0 +1,37 @@
+{
+  "git": {
+    "tagName": "v${version}",
+    "requireBranch": "main",
+    "requireCommits": true,
+    "commitMessage": "chore: release v${version}",
+    "requireCleanWorkingDir": true
+  },
+  "github": {
+    "release": true,
+    "releaseName": "Release ${version}",
+    "web": false,
+    "draft":true
+  },
+  "npm":{
+    "publish":true,
+    "ignoreVersion":false
+  },
+  "hooks": {
+    "before:init": [
+      "if [ \"$(git log $(git describe --tags --abbrev=0)..HEAD)\" = \"\" ]; then exit 1; fi;",
+      "npm run lint",
+      "npm run test"
+    ],
+    "after:bump":"npm run build",
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "header":"# Changelog",
+      "preset": {
+        "name": "angular"
+      },
+      "infile": "CHANGELOG.md"
+    }
+  }
+}
