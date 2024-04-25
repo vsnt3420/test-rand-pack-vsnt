@@ -1,5 +1,19 @@
 # Changelog
 
+# [0.4.0](https://github.com/vsnt3420/test-rand-pack-vsnt/compare/v0.1.0...v0.4.0) (2024-04-25)
+
+
+### Performance Improvements
+
+* added generate random num code ([3132fda](https://github.com/vsnt3420/test-rand-pack-vsnt/commit/3132fda32097f9e41213569967b3ca501b2fe239))
+
+# [0.3.0](https://github.com/vsnt3420/test-rand-pack-vsnt/compare/v0.1.0...v0.3.0) (2024-04-25)
+
+
+### Performance Improvements
+
+* added generate random num code ([3132fda](https://github.com/vsnt3420/test-rand-pack-vsnt/commit/3132fda32097f9e41213569967b3ca501b2fe239))
+
 # [0.1.0](https://github.com/vsnt3420/test-rand-pack-vsnt/compare/v0.3.0...v0.1.0) (2024-04-25)
 
 
