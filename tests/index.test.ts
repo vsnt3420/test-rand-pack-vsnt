@@ -12,4 +12,7 @@ describe('generateRandomNumber function', () => {
   });
 
   // Add more test cases as needed
+  // Add more test cases as needed
+  // Add more test cases as needed
+  // Add more test cases as needed
 });
