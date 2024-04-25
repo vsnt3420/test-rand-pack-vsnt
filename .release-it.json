@@ -10,23 +10,19 @@
     "release": true,
     "releaseName": "Release ${version}",
     "web": false,
-    "draft":true
+    "draft": true
   },
-  "npm":{
-    "publish":true,
-    "ignoreVersion":false
+  "npm": {
+    "publish": true
   },
   "hooks": {
-    "before:init": [
-      "npm run lint",
-      "npm run test"
-    ],
-    "after:bump":"npm run build",
+    "before:init": ["npm run lint", "npm run test"],
+    "after:bump": "npm run build",
     "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "header":"# Changelog",
+      "header": "# Changelog",
       "preset": {
         "name": "angular"
       },
