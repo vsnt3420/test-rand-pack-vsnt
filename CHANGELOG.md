@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.1.0](https://github.com/vsnt3420/test-rand-pack-vsnt/compare/v0.3.0...v0.1.0) (2024-04-25)
+
+
+### Features
+
+* added npm ignore ([da79faa](https://github.com/vsnt3420/test-rand-pack-vsnt/commit/da79faa30d69170df2945f95b5d9b24c0377825e))
+
 # [0.4.0](https://github.com/vsnt3420/test-rand-pack-vsnt/compare/v0.3.0...v0.4.0) (2024-04-25)
 
 
